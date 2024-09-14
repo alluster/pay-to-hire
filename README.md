@@ -1,68 +1,40 @@
-# Node.js Backend API
+# Pay to Hire Web App
 
 ## Overview
 
-## This API allows users to:
+## Marketing site for an App allows users to:
 
--   Authenticate and manage teams: Users can create teams and invite others.
--   Integrate Google Sheets: Users can fetch data from Google Sheets.
--   Analyze data with OpenAI GPT: Import data from Google Sheets and analyze it using OpenAI's Chat GPT.
--   Subscription management: Users can purchase subscriptions using Stripe.
-
-**Features**
-
--   **Authentication & Authorization**: JWT-based authentication and invitation management.
--   **PostgreSQL**: Relational database to manage organizations, teams, users, dashboards, and data points.
--   **Stripe** Integration: For subscription management.
--   **Google Cloud Integration**: Fetch Google Sheets using a service account.
--   **OpenAI GPT Integration**: Analyze data imported from Google Sheets.
--   **Docker**: Containerized environment for development and deployment.
+-   Create a profile that allows users to get paid for joining meetings and job interviews
 
 **Tech Stack**
 
--   **Node.js**: Backend framework.
--   **Knex.js**: SQL query builder for PostgreSQL.
--   **PostgreSQL**: Database.
--   **Docker**: Containerization for easy environment management.
+-   **Next.js**: Front end framework.
+-   **TypeScript**: To have a consistent types in the app
+-   **Tailwind.css**: CSS Library for consistent styles
 
-### After downloading, execute following steps to develop:
+### After downloading, execute following steps to start developing:
 
-2.  **Migrate Database**
+2.  **Install packages**
 
-    Navigate into app’s directory and migrate with Knex.js:
-
-    ```shell
-    knex:migrate latest
-    ```
-
-1.  **Run unit tests**
-
-    Navigate into app’s directory and run tests:
+    Navigate into app’s directory and run:
 
     ```shell
-    npm run test
+    npm install
     ```
 
-1.  **Start command**
+3.  **Start command**
 
     Navigate into app’s directory and start it up:
 
     ```shell
-    docker-compose up
+    npm run dev
     ```
 
-1.  **Access the Database via Adminer**
+4.  **Access app in your browser**
 
-    ```shell
-    localhost:8090
-    ```
+        ```shell
+        localhost:3000
 
-1.  **Access the API**
+        ```
 
-    ```shell
-    localhost:3000
-    ```
-
-### VS Code Extension suggestions for development
-
--   Rest Client
+    ![App Screenshot](https://raw.githubusercontent.com/alluster/pay-to-hire/master/public/img/screenshot.png)
