@@ -32,8 +32,8 @@
 
 4.  **Access app in your browser**
 
-        ```shell
-        localhost:3000
-        ```
+    ```shell
+    localhost:3000
+    ```
 
-    ![App Screenshot](https://raw.githubusercontent.com/alluster/pay-to-hire/master/public/img/screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/alluster/pay-to-hire/master/public/img/screenshot.png)
