@@ -34,7 +34,6 @@
 
         ```shell
         localhost:3000
-
         ```
 
     ![App Screenshot](https://raw.githubusercontent.com/alluster/pay-to-hire/master/public/img/screenshot.png)
